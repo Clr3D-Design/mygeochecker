@@ -1,0 +1,73 @@
+body{
+  background:white;
+  text-align:center;
+  margin:0px;
+}
+
+#divh1{
+  background:#02874D;
+}
+
+.div{
+  border-color:black;
+  border-width:1px;
+  border-radius:5px;
+  border-style:solid;
+  text-align:left;
+  margin:5px;
+  background:rgb(230,230,230);
+}
+
+h1
+{
+  font-weight:bold;
+  font-size:2em;
+  text-align:left;
+  color:white;
+  margin:5px;
+}
+
+h2
+{
+  font-size:1.5em;
+  text-align:left;
+  margin:5px;
+}
+
+h3
+{
+  text-align:left;
+  font-size:1em;
+  margin:5px;
+}
+
+p{
+  margin:5px;
+}
+
+input{
+  margin:5px;
+}
+
+#Coord
+{
+  background:rgb(190,200,200);
+  border-width:1px;
+  border-color:black;
+  border-style:solid;
+  text-align:center;
+  font-weight:bold;
+}
+
+#bcoord{
+  text-align:center;
+  width:100%;
+  margin:5px;
+}
+
+#hint
+{
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
+}

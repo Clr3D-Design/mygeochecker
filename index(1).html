@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Geocache Checker</title>
+  <link rel="stylesheet" type="text/css" href="design.css" />
+  <script type="text/javascript">
+    webView.getSettings().setDomStorageEnabled(true);
+    webSetting.setJavaScriptEnabled(true);
+    webView.setWebChromeClient(new WebChromeClient());
+    webView.setWebViewClient(new WebViewClient());
+  </script>
+
+  
+</head>
+<body>
+  
+  <div id="divh1"><h1>Geochecker</h1></div>
+  <h2>Bahnhof Oybin - GC9QD1H</h2>
+  <br>
+  <h3>Bitte beantwortet die kurzen Fragen, um die Koordinaten zu erhalten.</h3>
+  <br>
+  
+  <div class="div" id="divqu1">
+          <p>1. Findet auf dem Gelände des Oybiner Bahnhofs eine Kirche. Welche Uhrzeit hat die Uhr, die Richtung Westen zeigt? (Eingabe gerundet auf 5 Minuten im Format HH:MM)</p>
+          <p>Hinweis: Bitte verstellt die Zeiger nicht! Überlasst sie einfach der Schwerkraft.</p>
+          <input type=text id="i1" value="">
+          <button id="b1">Antwort prüfen</button>
+          <p id="ch1"> </p>
+  </div>
+  
+  <div class="div" id="divqu2">
+          <p>2. Wie viele Meter über NN befindet sich der Oybiner Bahnhof? (Beispiel: 103,412)</p>
+          <input type=text id="i2" value="">
+          <button id="b2">Antwort prüfen</button>
+          <p id="ch2"> </p>
+  </div>
+  
+  <div class="div" id="divqu3">
+          <p>3. Sucht das alte mechanische Stellwerk. Auf welches Gleis fährt der Zug, wenn der 4. Hebel von Links des Stellwerks nach Links gestellt wird.</p>
+          <input type=text id="i3" value="">
+          <button id="b3">Antwort prüfen</button>
+          <p id="ch3"></p>
+  </div>
+  
+  <div class="div" id="divqu4">
+          <p>4. Wie viele Haltestellen befinden sich zwischen Bahnhof Zittau und Bahnhof Oybin?</p>
+          <input type=text id="i4" value="">
+          <button id="b4">Antwort prüfen</button>
+          <p id="ch4"></p>
+  </div>
+  
+  <div class="div" id="divqu5">
+          <p>5. Wie hoch ist der Berg, der sich 1,5 km östlich vom Bahnhof Oybin befindet?</p>
+          <input type=text id="i5" value="">
+          <button id="b5">Antwort prüfen</button>
+          <p id="ch5"></p>
+  </div>
+  
+  <div class="div" id="divqu6">
+          <p>6. Welcher Berg befindet sich von Bahnhof Oybin aus 1,1 km in Richtung des Sommerberges?</p>
+          <input type=text id="i6" value="">
+          <button id="b6">Antwort prüfen</button>
+          <p id="ch6"></p>
+  </div>
+  
+  <br>
+  <br>
+  
+  <button id="bcoord">Koordinaten enthüllen</button>
+  <p id="pcoord"></p>
+  
+  <p id="Coord">Final: NXX°XX.XXX EXX°XX.XXX</p>
+  
+  <p id="hint">Schaut euch auf dem Weg zum Final nach dem Dampfbahn-Lehrpfad Schild Nummer 50 um. Hier habt ihr einen wunderbaren Blick auf den Oybiner Bahnhof. Auf dem Schild ist eine Lokomotive abgebildet. Merkt euch die letzten drei Ziffern ihrer Nummer. Sie könnten euch am Final behilflich sein.</p>
+  <div id="divh1">
+          <br>
+          <br>
+          <br>
+  </div>
+  
+</body>
+  <script type="text/javascript" src="index.js"></script>
+</html>
