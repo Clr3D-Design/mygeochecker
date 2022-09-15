@@ -1,2 +1,2 @@
 # mygeochecker
-Simple Geochecker
+Simple Geochecker made by ClR 3D-Design
